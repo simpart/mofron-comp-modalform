@@ -1,6 +1,6 @@
 {
   "name": "mofron-comp-modalform",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "form component that has modal sending function for mofron",
   "main": "index.js",
   "scripts": {

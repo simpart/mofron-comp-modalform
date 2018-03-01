@@ -135,7 +135,7 @@ mf.comp.ModalForm = class extends Form {
             if ('function' !== typeof func) {
                 throw new Error('invalid parameter');
             }
-            if (undefined === this.m_callback) {
+            if (undefined === this.m_callback_buf) {
                 this.m_callback_buf = new Array(null,null);
             }
             this.m_callback_buf[0] = func;
